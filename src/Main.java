@@ -2,8 +2,8 @@ public class Main {
     public static void main(String[] args) {
 
         int ticketPrice = 15_234;
-        int rublesForBonusMilaes = 20;
-        int bonusMiles = ticketPrice / rublesForBonusMilaes;
+        int rublesForBonusMiles = 20;
+        int bonusMiles = ticketPrice / rublesForBonusMiles;
 
         System.out.println("Начислено бонусных миль за перелёты " + bonusMiles);
 
